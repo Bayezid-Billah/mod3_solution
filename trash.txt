@@ -15,3 +15,17 @@ if(file_exists("log.txt")){
 
 </textarea>
 <input type="submit"> 
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+<?php
+$comment = $_POST["comment"];
+$file = "log.txt";
+file_put_contents($file,$comment);
+header('Location: http://localhost/');
+?>
+
+
+
