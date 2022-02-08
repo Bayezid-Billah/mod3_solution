@@ -29,3 +29,7 @@ header('Location: http://localhost/');
 
 http://192.168.4.109/sandbox/submit/
 
+http://192.168.4.109/sandbox/submit/
+
+http://192.168.4.109/sandbox/result/test.php
+
